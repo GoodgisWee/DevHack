@@ -1,0 +1,2 @@
+# DevHack
+Dev Hack Competition
