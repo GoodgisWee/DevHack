@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/bus_stop_box.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/bus_stop_option.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/home_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/home_icon.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/my_voucher_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/search_box.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/voucher_claim_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/bus_stop_schedule_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/custom_home_menu_item.xml" value="0.17753623188405798" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_bus_stop.xml" value="0.22" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_nearby.xml" value="0.10625" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_setting.xml" value="0.16802536231884058" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_voucher.xml" value="0.22" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/voucher_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

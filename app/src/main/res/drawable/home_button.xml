@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background shape (white circle) -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#000000" /> <!-- White background color -->
+            <size android:width="47dp" android:height="47dp" /> <!-- Adjust the size as needed for the circle diameter -->
+        </shape>
+    </item>
+
+    <!-- Border shape with gray color -->
+    <item android:gravity="center">
+        <shape android:shape="oval">
+            <solid android:color="#ffffff" /> <!-- Gray border color (adjust as needed) -->
+            <size android:width="45dp" android:height="45dp" /> <!-- Match the size of the background shape -->
+        </shape>
+    </item>
+</layer-list>

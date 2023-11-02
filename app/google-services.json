@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "772148210597",
+    "project_id": "busiorempit",
+    "storage_bucket": "busiorempit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:772148210597:android:a13eaafea66967ea24164c",
+        "android_client_info": {
+          "package_name": "my.edu.devhacktesting3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9yK0LOan8caU6BQx1P5xctFQxEErvfwk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
