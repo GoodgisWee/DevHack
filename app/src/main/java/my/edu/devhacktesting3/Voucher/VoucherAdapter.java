@@ -41,6 +41,7 @@ public class VoucherAdapter extends RecyclerView.Adapter<VoucherAdapter.ViewHold
         VoucherItem VoucherItem = VoucherItems.get(position);
 
         viewHolder.voucherName.setText(VoucherItem.getVoucherName());
+        viewHolder.point.setText(VoucherItem.getPoint()+"\nPoint");
         viewHolder.validDate.setText("Valid Till: "+ VoucherItem.getValidDate());
         if(VoucherItem.getVoucherLogoName().equalsIgnoreCase("FOODPANDA")){
             viewHolder.voucherLogo.setImageResource(R.drawable.foodpanda_logo);
@@ -66,8 +67,7 @@ public class VoucherAdapter extends RecyclerView.Adapter<VoucherAdapter.ViewHold
 
     //represent a single item view within the RecyclerView
     public class ViewHolder extends RecyclerView.ViewHolder {
-        TextView validDate;
-        TextView voucherName;
+        TextView validDate, voucherName, point;
         ImageView voucherLogo;
         Button claimBtn;
 
@@ -75,6 +75,7 @@ public class VoucherAdapter extends RecyclerView.Adapter<VoucherAdapter.ViewHold
             super(itemView);
             validDate=itemView.findViewById(R.id.validDate);
             voucherName=itemView.findViewById(R.id.voucherName);
+            point=itemView.findViewById(R.id.voucherPoint);
             voucherLogo=itemView.findViewById(R.id.voucherLogo);
             claimBtn=itemView.findViewById(R.id.claimBtn);
         }

@@ -17,11 +17,14 @@ public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleAdapter.ViewHo
 
     private List<ScheduleItem> scheduleItems;
     private onGoClickListener goClickListener;
+    private onTrackBusClickListener trackBusClickListener;
 
     //constructor
-    public ScheduleAdapter(List<ScheduleItem> scheduleItems, onGoClickListener listener) {
+    public ScheduleAdapter(List<ScheduleItem> scheduleItems, onGoClickListener goClickListener,
+                           onTrackBusClickListener trackBusClickListener) {
         this.scheduleItems = scheduleItems;
-        this.goClickListener = listener;
+        this.goClickListener = goClickListener;
+        this.trackBusClickListener = trackBusClickListener;
     }
 
     //when recyclerview need create new viewholder for item in list
@@ -47,6 +50,15 @@ public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleAdapter.ViewHo
             public void onClick(View view) {
                 if(goClickListener != null){
                     goClickListener.onGoClick(scheduleItem);
+                }
+            }
+        });
+
+        viewHolder.trackBusBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(trackBusClickListener != null){
+                    trackBusClickListener.onTrackBusClick(scheduleItem);
                 }
             }
         });
@@ -78,6 +90,10 @@ public class ScheduleAdapter extends RecyclerView.Adapter<ScheduleAdapter.ViewHo
 
     public interface onGoClickListener {
         void onGoClick(ScheduleItem scheduleItem);
+    }
+
+    public interface onTrackBusClickListener {
+        void onTrackBusClick(ScheduleItem scheduleItem);
     }
 
 }

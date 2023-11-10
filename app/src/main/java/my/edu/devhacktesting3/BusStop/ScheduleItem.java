@@ -5,13 +5,15 @@ import android.widget.TextView;
 
 public class ScheduleItem {
 
-    private String busStop, busStart, busEnd, distance;
+    private String busStop, busStart, busEnd, carplate;
+    private double distance;
 
-    public ScheduleItem(String busStop, String busStart, String busEnd, String distance) {
+    public ScheduleItem(String busStop, String busStart, String busEnd, double distance, String carplate) {
         this.busStop = busStop;
         this.busStart = busStart;
         this.busEnd = busEnd;
         this.distance = distance;
+        this.carplate = carplate;
     }
 
     public String getBusStop() {
@@ -22,11 +24,11 @@ public class ScheduleItem {
         this.busStop = busStop;
     }
 
-    public String getDistance() {
+    public double getDistance() {
         return distance;
     }
 
-    public void setDistance(String distance) {
+    public void setDistance(double distance) {
         this.distance = distance;
     }
 
@@ -44,5 +46,13 @@ public class ScheduleItem {
 
     public void setBusEnd(String busEnd) {
         this.busEnd = busEnd;
+    }
+
+    public String getCarplate() {
+        return carplate;
+    }
+
+    public void setCarplate(String carplate) {
+        this.carplate = carplate;
     }
 }

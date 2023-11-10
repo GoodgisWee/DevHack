@@ -5,12 +5,21 @@ import android.widget.TextView;
 
 public class VoucherItem {
 
-    private String validDate, voucherName, voucherLogoName;
+    private String id, validDate, voucherName, voucherLogoName;
+    private int point, amount;
 
-    public VoucherItem(String validDate, String voucherName, String voucherLogoName) {
+    public VoucherItem() {
+        // Default constructor is required by Firebase for deserialization.
+    }
+
+    public VoucherItem(String id, String validDate, String voucherName, String voucherLogoName,
+                       int point, int amount) {
+        this.id = id;
         this.validDate = validDate;
         this.voucherName = voucherName;
         this.voucherLogoName = voucherLogoName;
+        this.point = point;
+        this.amount = amount;
     }
 
     public String getValidDate() {
@@ -35,5 +44,29 @@ public class VoucherItem {
 
     public void setVoucherLogoName(String voucherLogoName) {
         this.voucherLogoName = voucherLogoName;
+    }
+
+    public int getPoint() {
+        return point;
+    }
+
+    public void setPoint(int point) {
+        this.point = point;
+    }
+
+    public int getAmount() {
+        return amount;
+    }
+
+    public void setAmount(int amount) {
+        this.amount = amount;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }

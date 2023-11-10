@@ -3,24 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/bus_stop_box.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/bus_stop_option.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/home_button.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/home_icon.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/my_voucher_button.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/search_box.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/drawable/voucher_claim_button.xml" value="0.19583333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/bus_stop_schedule_item.xml" value="0.16666666666666666" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/custom_home_menu_item.xml" value="0.17753623188405798" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_bus_stop.xml" value="0.22" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_home.xml" value="0.1" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_nearby.xml" value="0.10625" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_setting.xml" value="0.16802536231884058" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/fragment_voucher.xml" value="0.22" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/layout/voucher_item.xml" value="0.3333333333333333" />
-        <entry key="..\:/Document/1 MAD/DevHackTesting3/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/drawable/bus_details_popout.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/drawable/change_bus_stop_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/drawable/ic_launcher_background.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/drawable/ic_wave.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/drawable/voucher_claim_button.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/activity_bus.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/activity_login.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/activity_main.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/activity_my_profile.xml" value="0.1" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/activity_skeleton_screen.xml" value="0.16666666666666666" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/bus_stop_schedule_item.xml" value="0.17617753623188406" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/fragment_bus_stop.xml" value="0.1" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/fragment_home.xml" value="0.1082427536231884" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/fragment_my_voucher.xml" value="0.22" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/fragment_nearby.xml" value="0.22" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/fragment_profile.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/fragment_voucher.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/myvoucher_item.xml" value="0.16666666666666666" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/layout/voucher_item.xml" value="0.3333333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1796875" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/1 MAD/DevHack/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.19583333333333333" />
+        <entry key="..\:/Document/DevHack/app/src/main/res/layout/fragment_home.xml" value="0.14666666666666667" />
+        <entry key="..\:/Document/DevHack/app/src/main/res/layout/fragment_voucher.xml" value="0.1" />
+        <entry key="..\:/Users/USER/Android/Sdk/platforms/android-31/data/res/layout/simple_spinner_dropdown_item.xml" value="0.1796875" />
       </map>
     </option>
   </component>

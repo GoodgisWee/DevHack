@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item android:title="Bus Stop"
+        android:icon="@drawable/ic_baseline_directions_bus_24"
+        android:id="@+id/busStop"/>
+
     <item android:title="Nearby"
         android:icon="@drawable/ic_baseline_location_on_24"
         android:id="@+id/nearby"/>
-
-    <item android:title="Bus Stop"
-        android:icon="@drawable/ic_baseline_local_gas_station_24"
-        android:id="@+id/busStop"/>
 
     <item android:title="Home"
         android:icon="@drawable/ic_baseline_home_24"
